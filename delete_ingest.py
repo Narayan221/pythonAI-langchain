@@ -9,4 +9,4 @@ db = Chroma(persist_directory="db", embedding_function=embedding)
 # Delete everything
 db.delete_collection()
 
-print("✅ Vector DB cleared. You can now re-run ingest.py")
+print("Vector DB cleared. You can now re-run ingest.py")
